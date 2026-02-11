@@ -6,7 +6,7 @@ import java.util.List;
 public class Jogador {
 
     private int pontos = 0;
-    private List<Carta> cartas = new ArrayList<>();
+    private final List<Carta> cartas = new ArrayList<>();
     private boolean parou = false;
 
     public void receberCarta(Carta carta){
