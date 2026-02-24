@@ -29,4 +29,6 @@ public class Jogador {
     public boolean parou() {
         return parou;
     }
+
+    public boolean estourou() { return pontos > 21; }
 }

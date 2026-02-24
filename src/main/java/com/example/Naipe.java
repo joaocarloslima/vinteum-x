@@ -5,6 +5,6 @@ public enum Naipe {
     Clubs,
     Diamonds,
     Spades,
-    Hearts
+    Hearts,
 
 }
